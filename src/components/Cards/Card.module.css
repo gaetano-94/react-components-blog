@@ -3,7 +3,10 @@
   background-color: white;
   margin: 40px auto;
   border-radius: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .image {
@@ -11,6 +14,7 @@
   height: 400px;
   display: block;
   border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
 }
 
 .titolo {
@@ -30,4 +34,5 @@
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+  width: 30%;
 }
